@@ -11,7 +11,7 @@ const Staking = () => {
             Stake Your <span className="text-primary">Tokens</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Lock your tokens to earn rewards while funding foorganice's growth and operations
+            Lock your tokens to earn rewards while funding foorganic's growth and operations
           </p>
         </div>
         
@@ -33,7 +33,7 @@ const Staking = () => {
             </div>
             <h3 className="text-xl font-semibold mb-2">Fund Growth</h3>
             <p className="text-muted-foreground mb-4">
-              Your stake powers foorganice operations and agency development
+              Your stake powers foorganic operations and agency development
             </p>
             <div className="text-2xl font-bold text-accent">100% Transparent</div>
           </Card>

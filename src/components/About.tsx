@@ -31,14 +31,14 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              About <span className="text-primary">foorganice</span>
+              About <span className="text-primary">foorganic</span>
             </h2>
             <div className="space-y-4 text-lg text-muted-foreground">
               <p>
                 We're pioneering a new model where digital agency growth is powered by community investment through Web3 technology.
               </p>
               <p>
-                When you stake with foorganice, you're not just earning rewards - you're directly funding innovative digital projects and gaining access to exclusive NFTs that represent your role in our ecosystem.
+                When you stake with foorganic, you're not just earning rewards - you're directly funding innovative digital projects and gaining access to exclusive NFTs that represent your role in our ecosystem.
               </p>
               <p>
                 Our hybrid model combines traditional agency services with decentralized finance, creating sustainable value for everyone involved.

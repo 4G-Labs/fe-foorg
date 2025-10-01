@@ -35,7 +35,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Join foorganice - where your stake powers our growth and your rewards unlock exclusive digital assets. Buy tokens, earn through staking, and swap for premium NFTs.
+            Join foorganic - where your stake powers our growth and your rewards unlock exclusive digital assets. Buy tokens, earn through staking, and swap for premium NFTs.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

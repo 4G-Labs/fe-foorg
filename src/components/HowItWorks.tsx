@@ -6,7 +6,7 @@ const HowItWorks = () => {
     {
       icon: Wallet,
       title: "Buy FORG Tokens",
-      description: "Purchase foorganice tokens through our platform using crypto or fiat"
+      description: "Purchase foorganic tokens through our platform using crypto or fiat"
     },
     {
       icon: RefreshCw,
@@ -28,7 +28,7 @@ const HowItWorks = () => {
             How It <span className="text-primary">Works</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Three simple steps to join the foorganice ecosystem
+            Three simple steps to join the foorganic ecosystem
           </p>
         </div>
         

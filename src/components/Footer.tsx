@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div className="col-span-2">
             <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              foorganice
+              foorganic
             </h3>
             <p className="text-muted-foreground mb-4 max-w-md">
               A digital agency empowered by Web3 technology. Stake with us, grow with us, and unlock exclusive NFTs.
@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
         
         <div className="pt-8 border-t border-border text-center text-muted-foreground text-sm">
-          <p>© 2025 foorganice. All rights reserved.</p>
+          <p>© 2025 foorganic. All rights reserved.</p>
         </div>
       </div>
     </footer>
