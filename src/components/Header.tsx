@@ -1,6 +1,6 @@
-import { Button } from "@/components/ui/button";
-import { Wallet, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -11,7 +11,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <a href="/" className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            foorganic
+            Foorganic
           </a>
           
           {/* Desktop Navigation */}
@@ -32,10 +32,7 @@ const Header = () => {
           
           {/* Connect Wallet Button */}
           <div className="hidden md:block">
-            <Button variant="hero" className="gap-2">
-              <Wallet className="w-4 h-4" />
-              Connect Wallet
-            </Button>
+            <ConnectButton />
           </div>
           
           {/* Mobile Menu Button */}
@@ -83,10 +80,9 @@ const Header = () => {
               >
                 About
               </a>
-              <Button variant="hero" className="gap-2 w-full">
-                <Wallet className="w-4 h-4" />
-                Connect Wallet
-              </Button>
+              <div className="w-full">
+                <ConnectButton />
+              </div>
             </nav>
           </div>
         )}

@@ -28,35 +28,35 @@ const Hero = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-            Stake, Earn, and Own
+            Stake Tokens & NFTs
             <span className="block bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Premium NFTs
+              Redeem Real Rewards
             </span>
           </h1>
           
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Join foorganic - where your stake powers our growth and your rewards unlock exclusive digital assets. Buy tokens, earn through staking, and swap for premium NFTs.
+            Stake your NFTs in merchant campaigns, receive $FOORG, and redeem for products and services at partner locations.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button variant="hero" size="lg" className="gap-2">
-              Start Staking
+              Explore Campaigns
               <ArrowRight className="w-5 h-5" />
             </Button>
             <Button variant="glass" size="lg">
-              Explore NFTs
+              How It Works
             </Button>
           </div>
           
           {/* Stats */}
           <div className="grid grid-cols-3 gap-8 pt-12 max-w-2xl mx-auto">
             <div className="space-y-2">
-              <div className="text-3xl font-bold text-primary">12%</div>
-              <div className="text-sm text-muted-foreground">APY Staking</div>
+              <div className="text-3xl font-bold text-primary">50+</div>
+              <div className="text-sm text-muted-foreground">Active Campaigns</div>
             </div>
             <div className="space-y-2">
-              <div className="text-3xl font-bold text-accent">500+</div>
-              <div className="text-sm text-muted-foreground">NFTs Available</div>
+              <div className="text-3xl font-bold text-accent">200+</div>
+              <div className="text-sm text-muted-foreground">Partner Merchants</div>
             </div>
             <div className="space-y-2">
               <div className="text-3xl font-bold text-primary">2.5K+</div>

@@ -5,23 +5,23 @@ const About = () => {
   const values = [
     {
       icon: Shield,
-      title: "Transparent & Secure",
-      description: "Full transparency in how staked funds power our agency operations with enterprise-grade security"
+      title: "Secure & Transparent",
+      description: "Smart contract-based staking ensures your assets are safe and all transactions are verifiable on-chain"
     },
     {
       icon: Users,
-      title: "Community First",
-      description: "Our success is your success. We grow together through aligned incentives and shared rewards"
+      title: "Win-Win Economy",
+      description: "Users earn real rewards while merchants gain engaged customers and upfront campaign funding"
     },
     {
       icon: Zap,
-      title: "Innovation Driven",
-      description: "Combining cutting-edge Web3 technology with proven digital agency expertise"
+      title: "Real-World Utility",
+      description: "Bridge the gap between crypto and commerce with tangible products and services you can redeem"
     },
     {
       icon: Target,
-      title: "Results Focused",
-      description: "Delivering exceptional value to both our stakers and our agency clients"
+      title: "Growing Network",
+      description: "Expanding merchant partnerships across categories - from dining and retail to entertainment and wellness"
     }
   ];
   
@@ -31,17 +31,17 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              About <span className="text-primary">foorganic</span>
+              About <span className="text-primary">Foorganic</span>
             </h2>
             <div className="space-y-4 text-lg text-muted-foreground">
               <p>
-                We're pioneering a new model where digital agency growth is powered by community investment through Web3 technology.
+                Foorganic connects users and merchants through a revolutionary staking-to-redemption platform powered by blockchain technology.
               </p>
               <p>
-                When you stake with foorganic, you're not just earning rewards - you're directly funding innovative digital projects and gaining access to exclusive NFTs that represent your role in our ecosystem.
+                Users stake tokens or NFTs in merchant campaigns and receive $FOORG tokens (or equivalent redemption credits) to redeem real products and services. Merchants gain engaged customers and upfront capital, while users enjoy tangible rewards for their participation.
               </p>
               <p>
-                Our hybrid model combines traditional agency services with decentralized finance, creating sustainable value for everyone involved.
+                Our platform creates a win-win ecosystem where blockchain meets real-world commerce, delivering value to both sides of every transaction.
               </p>
             </div>
           </div>
@@ -55,12 +55,12 @@ const About = () => {
                 <div className="text-xl text-foreground">Total Value Staked</div>
                 <div className="grid grid-cols-2 gap-6 pt-6">
                   <div>
-                    <div className="text-3xl font-bold text-primary">50+</div>
-                    <div className="text-sm text-muted-foreground">Projects Funded</div>
+                    <div className="text-3xl font-bold text-primary">200+</div>
+                    <div className="text-sm text-muted-foreground">Partner Merchants</div>
                   </div>
                   <div>
-                    <div className="text-3xl font-bold text-accent">98%</div>
-                    <div className="text-sm text-muted-foreground">Client Satisfaction</div>
+                    <div className="text-3xl font-bold text-accent">15K+</div>
+                    <div className="text-sm text-muted-foreground">Redemptions Completed</div>
                   </div>
                 </div>
               </div>
